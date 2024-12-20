@@ -1,0 +1,200 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Amor</title>
+    <style>
+        /* Fundo com gradiente suave e pétalas caindo */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #F8D7A3, #E2A1D5); /* Fundo com gradiente suave de pêssego para lilás */
+            color: #333333; /* Texto principal em cinza escuro para boa leitura */
+            text-align: center;
+            padding: 3em;
+            background-color: #F1E6D6; /* Cor suave de fundo (Bege claro) */
+            background-size: cover;
+            position: relative;
+            overflow-x: hidden; /* Impede a rolagem horizontal */
+            min-height: 100vh; /* Garante que a altura da tela cubra toda a página */
+        }
+
+        /* Efeito de pétalas caindo */
+        .petal {
+            position: absolute;
+            top: -50px;
+            width: 20px;
+            height: 20px;
+            background-color: #FFB6C1; /* Cor das pétalas em rosa claro */
+            border-radius: 50%;
+            animation: petal-fall 4s infinite ease-in;
+            opacity: 0.8;
+        }
+
+        @keyframes petal-fall {
+            0% {
+                top: -50px;
+                opacity: 0.8;
+            }
+            100% {
+                top: 100%;
+                opacity: 0;
+            }
+        }
+
+        /* Estilo do título */
+        h1 {
+            color: #FF6B81; /* Cor suave e romântica para o título */
+            font-size: 3.5em;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+
+        /* Estilo do contador */
+        .counter {
+            font-size: 2em;
+            margin-top: 1em;
+            color: #FF6B81;
+        }
+
+        /* Estilo do bloco de texto */
+        .text-area {
+            margin: 2em 0;
+            padding: 1.5em;
+            background: rgba(255, 255, 255, 0.3); /* Fundo levemente transparente */
+            border-radius: 15px;
+            font-size: 1.2em;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #333333; /* Texto da área de texto em cinza escuro */
+        }
+
+        /* Estilo da galeria de imagens */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5em;
+            margin-top: 3em;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            border: 5px solid #FFF5D6; /* Borda suave em tom creme */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Botão "voltar ao topo" */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #FF6B81;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1em;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .scroll-to-top:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nosso Amor</h1>
+    <p>Estamos juntos há:</p>
+    <div class="counter" id="counter">Calculando...</div>
+
+    <div class="text-area" id="customText">
+        Minha Princesinha linda,
+
+        Este mês é especial por muitos motivos, estamos no clima de Natal e estamos 10 meses incríveis juntos. Para marcar essa data de um jeito especial, com esse presente, quero transformar em algo único todo o amor, carinho e admiração que sinto por você.
+
+        Desde o primeiro momento, você trouxe luz e cor à minha vida. Cada sorriso seu ilumina minhas manhãs, minhas tardes e minhas noites neste mundo e cada abraço seu me faz sentir em casa. Ao seu lado, até os dias mais comuns se tornam inesquecíveis.
+
+        Estar com você é uma das melhores coisas que já me aconteceu. Sua bondade, seu jeito especial de cuidar de mim e a maneira como enfrentamos tudo juntos fazem de nós algo único e precioso.
+
+        Obrigado por ser essa pessoa tão maravilhosa, tão incrível que eu admiro e me inspiro de coração todos os dias. Com você, me esforço e me inspiro a ser alguém melhor todos os dias para fazer de nós uma história cheia de amor, companheirismo e alegria.
+
+        Eu te amo imensamente e sou eternamente grato por cada momento ao seu lado. Que venham muitos dias, meses e anos e outros muitos Natais ao seu lado, cada segundo ao seu lado me recarrega minhas energias e me torno muito mais feliz, seu sorriso me engrandece e sua energia me fortalece, e uma vida inteira para vivermos juntos.
+
+        Com todo o meu amor,  
+        Seu Amor, Weverton
+    </div>
+
+    <div class="gallery">
+        <img src="galeria/BB.jpeg" alt="Nós no beco do Batman">
+        <img src="galeria/CPJ.jpeg" alt="CPJ">
+        <img src="galeria/Dunas.jpeg" alt="Dunas">
+        <img src="galeria/HL.jpeg" alt="HL">
+        <img src="galeria/HL1.jpeg" alt="HL1">
+        <img src="galeria/SEN.jpeg" alt="SEN">
+        <img src="galeria/MG.jpeg" alt="MG">
+        <img src="galeria/MG1.jpeg" alt="MG1">
+        <img src="galeria/MGS.jpeg" alt="MGS">
+	<img src="galeria/1.jpeg" alt="1">
+	<img src="galeria/2.jpeg" alt="2">
+	<img src="galeria/3.jpeg" alt="3">
+	<img src="galeria/4.jpeg" alt="4">
+	<img src="galeria/5.jpeg" alt="5">
+	<img src="galeria/6.jpeg" alt="6">
+    </div>
+
+    <button class="scroll-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+        Voltar ao topo
+    </button>
+
+    <!-- Geração de pétalas caindo -->
+    <script>
+        // Função para gerar pétalas aleatórias
+        function gerarPetalas() {
+            const petalCount = 20; // Número de pétalas
+            const body = document.body;
+            for (let i = 0; i < petalCount; i++) {
+                let petal = document.createElement('div');
+                petal.classList.add('petal');
+                petal.style.left = Math.random() * 100 + 'vw'; // Posição aleatória na horizontal
+                petal.style.animationDuration = Math.random() * 4 + 3 + 's'; // Duração aleatória da animação
+                petal.style.animationDelay = Math.random() * 2 + 's'; // Atraso aleatório para as animações
+
+                body.appendChild(petal);
+            }
+        }
+
+        // Gerar as pétalas ao carregar a página
+        window.onload = gerarPetalas;
+
+        // Contador de tempo de namoro
+        function calcularTempoDeNamoro() {
+            const dataInicio = new Date("2024-02-19T00:00:00"); // Data de início do namoro
+            const agora = new Date();
+            const diffMs = agora - dataInicio; // Diferença em milissegundos
+
+            const dias = Math.floor(diffMs / (1000 * 60 * 60 * 24)); // Calculando dias
+            const horas = Math.floor((diffMs / (1000 * 60 * 60)) % 24); // Calculando horas
+            const minutos = Math.floor((diffMs / (1000 * 60)) % 60); // Calculando minutos
+            const segundos = Math.floor((diffMs / 1000) % 60); // Calculando segundos
+
+            // Atualizando o contador na página
+            document.getElementById("counter").innerText = 
+                `${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos`;
+        }
+
+        // Atualizando o contador a cada segundo
+        setInterval(calcularTempoDeNamoro, 1000);
+    </script>
+</body>
+</html>
+``
